@@ -3,7 +3,7 @@ function fizzBuzz(input){
         let buzz = input % 5 == 0;
         let fizzbuzz = fizz && buzz;
         if(fizzbuzz){
-            return "fizzbuzz"
+            return "fizzBuzz"
         }
         else if (fizz){
             return "fizz"
